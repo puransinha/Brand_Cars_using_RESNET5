@@ -1,5 +1,4 @@
 
-
 from __future__ import division, print_function
 # coding=utf-8
 import sys
@@ -26,8 +25,6 @@ MODEL_PATH ='model_resnet50.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
-
-
 
 
 def model_predict(img_path, model):
